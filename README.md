@@ -7,11 +7,7 @@ Terrap is a Terraform wrapper which keeps you up-to-date with the latest provide
 * Watch attributes deffinition modifications (required, optional, type etc.)
 * And more..
 
-```shell
-terrap init
-terrap scan
-```
-
+## About Terrap
 By design, Terrap executes `Terraform init` under the hood in order to initialize the Terrap workspace.
 As a direct result of the above, all the components required to initialize the Terraofrm workspace are required by Terrap as well.
 
