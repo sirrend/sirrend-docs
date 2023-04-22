@@ -6,7 +6,7 @@
   --sidebar-width: 21em;
   --code-font-size: 14px;
   --content-max-width: 75em;
-  --link-color: #6b2c9c;
+  --link-color: white;
 }
 
 .sidebar>h1 .app-name-link, .app-nav li a {
