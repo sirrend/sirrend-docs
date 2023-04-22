@@ -9,7 +9,7 @@
 }
 
 .sidebar>h1 .app-name-link, .app-nav li a {
-  color: #d3d3d3;
+  color: #7d23c2;
 }
 
 .app-nav>ul>li ul {
@@ -44,7 +44,7 @@
 }
 .medium-zoom-image {
   border: 1px solid white;
-  box-shadow: 0 0 5px #46464685;
+  box-shadow: 0 0 5px #7d23c2;
 }
 
 .markdown-section {
@@ -62,7 +62,7 @@
 #chapter-nav a {
   flex: 1;
   padding: 0.5em 1em;
-  border: 1px solid #ffffff7a;
+  border: 1px solid #6b2c9c;
   border-radius: 0.5em;
   text-decoration: none;
 }

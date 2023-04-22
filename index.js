@@ -1,8 +1,8 @@
 ;(() => {
 
     window.$docsify = {
-      name: 'Rod',
-      loadNavbar: true,
+      name: 'Terrap',
+      loadNavbar: false,
       loadSidebar: true,
       auto2top: true,
       subMaxLevel: 3,
