@@ -1,6 +1,6 @@
 
-- Introduction
-  - [What is it](README.md)
+<!-- - Introduction
+  - [What is it](README.md) -->
 
 - Commands
   - [init](init.md)
