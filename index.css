@@ -1,4 +1,4 @@
-@import url(//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css);
+@import url(//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css);
 
 :root {
   --base-background-color: #C2B8E5;
@@ -8,9 +8,10 @@
   --content-max-width: 75em;
   --link-color: black;
 
-  --sidebar-name-background: black;
-  --sidebar-nav-strong-color: black;
-  
+  --sidebar-name-background: white;
+  --sidebar-nav-strong-color: white;
+  --sidebar-background: #A48FD4;
+
 
 }
 
