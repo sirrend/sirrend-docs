@@ -6,9 +6,10 @@
   - [init](init.md)
   - [Scan](scan.md)
   - [whats-new](whats-new.md)
+  - [Providers](providers.md)
 
 - Resources
-  - [Examples](examples.md)
-  - [Why Rod](why-rod.md)
+  - [Quick Start]("quickstart.md)
+  - [Why Terrap](why-rod.md)
   - [Compatibility](compatibility.md)
-  - [Contribute Doc](contribute-doc.md)
+  - [Contribute](contribute-doc.md)

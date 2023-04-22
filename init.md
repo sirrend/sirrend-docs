@@ -11,10 +11,11 @@ On execution, init runs `terraform init` under the hood and initializes the give
 Init is necessary when you have a predefined set of providers and want to track changes made in subsequent versions.</br>
 It is prefered to use `init` in most cases, to make the use of other commands easier.
 
+<video width="615" height="290" loop autoplay>
+  <source src="images/init.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Flags
-* **--directory [-d]** - Initialize a specific directory, otherwise the directory in context will be initialized.
-* **--upgrade [-u]** - Upgrade the Terrap workspace in context (Can be used with -d).
-
-
-https://user-images.githubusercontent.com/47568615/233799732-40ca73db-6df7-47b7-b0a5-f87c57a7ed7d.mov
-
+* **[-d] directory** - Initialize a specific directory, otherwise the directory in context will be initialized.
+* **[-u] upgrade** - Upgrade the Terrap workspace in context (Can be used with -d).
