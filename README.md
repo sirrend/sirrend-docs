@@ -6,3 +6,8 @@ Terrap is a Terraform wrapper which keeps you up-to-date with the latest provide
 * Find resources / data sources removals.
 * Watch attributes deffinition modifications (required, optional, type etc.)
 * And more..
+
+```shell
+terrap init
+terrap scan
+```
