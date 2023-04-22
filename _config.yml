@@ -6,3 +6,5 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+domain: docs.sirrend.com
+url: https://docs.sirrend.com
