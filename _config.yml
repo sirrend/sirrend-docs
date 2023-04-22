@@ -1,4 +1,8 @@
-theme: cayman
+remote_theme: pages-themes/midnight@v0.2.0
+title: "Terrap Docs"
+description: "The Official Terrap Docs"
+plugins:
+  - jekyll-remote-theme
 source: "/"
 highlighter: rouge
 gist:
