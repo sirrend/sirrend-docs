@@ -1,7 +1,7 @@
-@import url(//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css);
+@import url(//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css);
 
 :root {
-  --base-background-color: #6b2c9c;
+  --base-background-color: #9177C9;
   --base-font-size: 16px;
   --sidebar-width: 21em;
   --code-font-size: 14px;
