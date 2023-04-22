@@ -6,7 +6,7 @@
 ?> **Important** Terrap currently supports upgrades to the following version only
 
 
-Terrap is a CLI utility created by <a href=https://sirrend.com style="color: #CBC4EA">Sirrend</a> which keeps you up-to-date with the latest provider changes.
+Terrap is a CLI utility created by <a href=https://sirrend.com style="color: #3366CC">Sirrend</a> which keeps you up-to-date with the latest provider changes.
 
 ## About
 By design, Terrap executes `terraform init` under the hood in order to initialize the Terrap workspace.</br>

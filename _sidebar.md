@@ -1,15 +1,17 @@
 
 - Introduction
-  - [Get Started](get-started/README.md)
+  - [What is it](README.md)
 
 - Commands
   - [init](init.md)
   - [Scan](scan.md)
-  - [whats-new](whats-new.md)
+  - [whats-New](whats-new.md)
   - [Providers](providers.md)
+  - [Open-Issue](open-issue.md)
+  - [Destroy](destroy.md)
 
 - Resources
-  - [Quick Start]("quickstart.md)
+  - [Quick Start](quickstart.md)
   - [Why Terrap](why-rod.md)
   - [Compatibility](compatibility.md)
   - [Contribute](contribute-doc.md)

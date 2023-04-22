@@ -19,3 +19,6 @@ It is prefered to use `init` in most cases, to make the use of other commands ea
 ## Flags
 * **[-d] directory** - Initialize a specific directory, otherwise the directory in context will be initialized.
 * **[-u] upgrade** - Upgrade the Terrap workspace in context (Can be used with -d).
+
+## Environment Variables
+**TERRAP_TERRAFORM_VERSION** - To specify the version of Terraform that Terrap should use, set this environment variable with the constraint: `>=0.13`.
