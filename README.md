@@ -1,3 +1,7 @@
+layout: page
+title: "Terrap Docs
+permalink: /home
+
 # Terrap
 Terrap is a Terraform wrapper which keeps you up-to-date with the latest provider changes.
 
