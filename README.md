@@ -1,6 +1,8 @@
 # Terrap
 Terrap is a Terraform wrapper which keeps you up-to-date with the latest provider changes.
 
+?> **Important** Terrap is currently in it's alpha stage and in continious development.
+
 ### Terrap Use Cases
 * Find code (schema) deprecations.
 * Find resources / data sources removals.
