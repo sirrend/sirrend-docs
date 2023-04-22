@@ -1,4 +1,4 @@
-# Scan 🔍
+# Init 👋 
 
 Init is used to initialize a Terrap workspace in a given directory.</br>
 On execution, init runs `terraform init` under the hood and initializes the given context (directory)</br>

@@ -1,24 +1,28 @@
-@import url(//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css);
+@import url(//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css);
 
 :root {
-  --base-background-color: #C2B8E5;
+  /* --base-background-color: #DBD9F3; */
   --base-font-size: 18px;
   --sidebar-width: 21em;
   --code-font-size: 14px;
   --content-max-width: 75em;
-  --link-color: black;
+  --link-color: azure;
 
+  /* --sidebar-background: #CBC4EA;
+  --search-input-background-color: #CBC4EA; */
 
-  --sidebar-background: #A48FD4;
-
-  --code-theme-background: black;
-  --code-theme-comment: grey;
+  --code-theme-background: #191a1c;
+  --code-inline-background: #343941;
+  --code-block-border-radius: 10px;
+  --code-inline-border-radius: 5px;
+  --code-theme-text: #C2B8E5;
+  --copycode-background: black;
 
 
 }
 
 .sidebar>h1 .app-name-link, .app-nav li a {
-  color: black;
+  color: azure;
 }
 
 .app-nav>ul>li ul {
@@ -83,4 +87,11 @@
 #chapter-nav .next {
   margin-left: 1em;
   text-align: right;
+}
+
+.logo-image{
+    width: 140px;
+    height: 38px;
+    overflow: hidden;
+    margin-top: -6px;
 }

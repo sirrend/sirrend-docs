@@ -1,15 +1,13 @@
 
 - Introduction
-
   - [Get Started](get-started/README.md)
 
-- Guides
-
+- Commands
+  - [init](init.md)
   - [Scan](scan.md)
   - [whats-new](whats-new.md)
 
 - Resources
-
   - [Examples](examples.md)
   - [Why Rod](why-rod.md)
   - [Compatibility](compatibility.md)

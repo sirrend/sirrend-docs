@@ -3,7 +3,7 @@
     window.$docsify = {
       name: 'Terrap',
       bgColor: "#C2B8E5",
-      loadNavbar: false,
+      loadNavbar: true,
       loadSidebar: true,
       auto2top: true,
       subMaxLevel: 3,
@@ -12,7 +12,12 @@
         placeholder: l('search-placeholder'),
         noData: l('search-noData'),
       },
-      plugins: [pluginChapterNav, zoomImg, analytics]
+      plugins: [pluginChapterNav, zoomImg, analytics],
+      copyCode: {
+        buttonText : 'Copy',
+        errorText  : 'Error',
+        successText: 'Copied'
+      }
     }
   
     function pluginChapterNav(hook, vm) {
