@@ -1,12 +1,3 @@
-remote_theme: pages-themes/cayman
 title: "Terrap Docs"
 description: "The Official Terrap Docs"
-plugins:
-  - jekyll-remote-theme
 source: "/"
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
