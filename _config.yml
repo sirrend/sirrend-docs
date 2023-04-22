@@ -1,4 +1,4 @@
-remote_theme: pages-themes/architect
+remote_theme: pages-themes/cayman
 title: "Terrap Docs"
 description: "The Official Terrap Docs"
 plugins:
