@@ -1,4 +1,7 @@
-@import url(//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css);
+@import url(//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css);
+body {
+    color: 6b2c9c;
+}
 
 :root {
   --base-font-size: 14px;
@@ -9,7 +12,7 @@
 }
 
 .sidebar>h1 .app-name-link, .app-nav li a {
-  color: #7d23c2;
+  color: #d3d3d3;
 }
 
 .app-nav>ul>li ul {
@@ -44,7 +47,7 @@
 }
 .medium-zoom-image {
   border: 1px solid white;
-  box-shadow: 0 0 5px #7d23c2;
+  box-shadow: 0 0 5px #46464685;
 }
 
 .markdown-section {
@@ -62,7 +65,7 @@
 #chapter-nav a {
   flex: 1;
   padding: 0.5em 1em;
-  border: 1px solid #6b2c9c;
+  border: 1px solid #ffffff7a;
   border-radius: 0.5em;
   text-decoration: none;
 }
