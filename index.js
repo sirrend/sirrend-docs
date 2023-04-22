@@ -2,6 +2,7 @@
 
     window.$docsify = {
       name: 'Terrap',
+      bgColor: "#9177C9",
       loadNavbar: false,
       loadSidebar: true,
       auto2top: true,
