@@ -2,11 +2,16 @@
 
 :root {
   --base-background-color: #C2B8E5;
-  --base-font-size: 16px;
+  --base-font-size: 18px;
   --sidebar-width: 21em;
   --code-font-size: 14px;
   --content-max-width: 75em;
   --link-color: black;
+
+  --sidebar-name-background: black;
+  --sidebar-nav-strong-color: black;
+  
+
 }
 
 .sidebar>h1 .app-name-link, .app-nav li a {
