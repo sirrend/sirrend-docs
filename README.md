@@ -1,4 +1,4 @@
-# Terrap 
+# Sirrend-Docs 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  ![GitHub go.mod Go version (subdirectory of monorepo)](https://img.shields.io/github/go-mod/go-version/sirrend/terrap-cli?filename=go.mod)
 
 ?> **Important** Terrap is currently in it's alpha stage and in continious development.
