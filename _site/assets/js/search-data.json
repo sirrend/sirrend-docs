@@ -1,0 +1,205 @@
+{"0": {
+    "doc": "Destroy",
+    "title": "Destroy",
+    "content": "Use this command in order to clean all Terrap data from a given directory. It will delete: . | The .terraform folder. | The .terraform.lock.hcl file. | The .terrap.json configuration file. | . ",
+    "url": "/docs/terrap/docs/destroy.html",
+    
+    "relUrl": "/docs/terrap/docs/destroy.html"
+  },"1": {
+    "doc": "Destroy",
+    "title": "Flags",
+    "content": ". | [-d] directory - Use this flag to specify which Terrap workspace to destroy. If not specified, will destroy the workspace in the current directory. | . ",
+    "url": "/docs/terrap/docs/destroy.html#flags",
+    
+    "relUrl": "/docs/terrap/docs/destroy.html#flags"
+  },"2": {
+    "doc": "Kuba-Engine",
+    "title": "Terrap Docs",
+    "content": ". Kuba-Engine is a CLI utility created by &lt;a href=https://sirrend.io style=”color: #3366CC”&gt;Sirrend&lt;/a&gt; which keeps you up-to-date with the compatible k8s manifests versions. ",
+    "url": "/docs/kuba-engine/#terrap-docs",
+    
+    "relUrl": "/docs/kuba-engine/#terrap-docs"
+  },"3": {
+    "doc": "Kuba-Engine",
+    "title": "Kuba-Engine",
+    "content": " ",
+    "url": "/docs/kuba-engine/",
+    
+    "relUrl": "/docs/kuba-engine/"
+  },"4": {
+    "doc": "Terrap",
+    "title": "Terrap Docs",
+    "content": ". Terrap is currently in it’s alpha stage and in continious development. Terrap currently supports upgrades to the following version only . Terrap is a CLI utility created by sirrend which keeps you up-to-date with the latest provider changes. ",
+    "url": "/docs/terrap/#terrap-docs",
+    
+    "relUrl": "/docs/terrap/#terrap-docs"
+  },"5": {
+    "doc": "Terrap",
+    "title": "About",
+    "content": "By design, Terrap executes terraform init under the hood in order to initialize the Terrap workspace. As a direct result of the above, all the components required to initialize the Terraofrm workspace are required by Terrap as well. For example, if you’re using the AWS_PROFILE environment variable to configure the AWS provider, you need to set it for Terrap as well. terraform { required_providers { aws = { source = \"hashicorp/aws\" version = \"3.74.3\" } } } . export AWS_PROFILE=\"aws_profile\" . ",
+    "url": "/docs/terrap/#about",
+    
+    "relUrl": "/docs/terrap/#about"
+  },"6": {
+    "doc": "Terrap",
+    "title": "How to Download",
+    "content": "Clone sirrend/terrap-cli . git clone https://github.com/sirrend/terrap-cli cd terrap-cli go build -o terrap . chmod +x terrap mv terrap /usr/local/bin/ . Brew . brew install terrap-cli . ",
+    "url": "/docs/terrap/#how-to-download",
+    
+    "relUrl": "/docs/terrap/#how-to-download"
+  },"7": {
+    "doc": "Terrap",
+    "title": "Constraints",
+    "content": ". | Supported Terraform Core versions: &gt;=0.13. | Every provider which uses Terraform Core 0.13 or higher. | . ",
+    "url": "/docs/terrap/#constraints",
+    
+    "relUrl": "/docs/terrap/#constraints"
+  },"8": {
+    "doc": "Terrap",
+    "title": "Terrap",
+    "content": " ",
+    "url": "/docs/terrap/",
+    
+    "relUrl": "/docs/terrap/"
+  },"9": {
+    "doc": "Home",
+    "title": "Home",
+    "content": "Sirrend official documentation page. At sirrend, our journey began with a mission to revolutionize codebase maintenance. Committed to empowering developers, we strive to streamline upgrades, eliminate tech debt, and maximize productivity. Join us in shaping the future of seamless development. Read the docs to start using the different tools such as Terrap . ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"10": {
+    "doc": "Init",
+    "title": "Init 👋",
+    "content": "Init is used to initialize a Terrap workspace in a given directory. On execution, init runs terraform init under the hood and initializes the given context (directory) . Terrap decides which Terraform version to use in the following order: . | The latest installed Terraform version found locally. | If the TERRAP_TERRAFORM_VERSION environment variable is set, Terrap will use the version specified as long as it matches the &gt;=0.13 constraint. | If none of the above is applicable, Terrap will download the latest available version. | . Init is necessary when you have a predefined set of providers and want to track changes made in subsequent versions. It is prefered to use init in most cases, to make the use of other commands easier. Your browser does not support the video tag. ",
+    "url": "/docs/terrap/docs/init.html#init-",
+    
+    "relUrl": "/docs/terrap/docs/init.html#init-"
+  },"11": {
+    "doc": "Init",
+    "title": "Flags",
+    "content": ". | [-d] directory - Initialize a specific directory, otherwise the directory in context will be initialized. | [-u] upgrade - Upgrade the Terrap workspace in context (Can be used with -d). | . ",
+    "url": "/docs/terrap/docs/init.html#flags",
+    
+    "relUrl": "/docs/terrap/docs/init.html#flags"
+  },"12": {
+    "doc": "Init",
+    "title": "Environment Variables",
+    "content": "TERRAP_TERRAFORM_VERSION - To specify the version of Terraform that Terrap should use, set this environment variable with the constraint: &gt;=0.13. ",
+    "url": "/docs/terrap/docs/init.html#environment-variables",
+    
+    "relUrl": "/docs/terrap/docs/init.html#environment-variables"
+  },"13": {
+    "doc": "Init",
+    "title": "Init",
+    "content": " ",
+    "url": "/docs/terrap/docs/init.html",
+    
+    "relUrl": "/docs/terrap/docs/init.html"
+  },"14": {
+    "doc": "Open Issue",
+    "title": "Open-Issue",
+    "content": "To report any issues or suggest new features, you can use this command to easily open a feature-request or a bug directly in the sirrend/terrap-cli GitHub repository. Example: terrap open-issue -t \"awesome\" -d \"I love this tool!\" -f . In order to use this command, you’ll need to create a GitHub token. If you don’t have one already, please follow the instructions mentioned &lt;a href=https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token style=”color: #3366CC”&gt;here&lt;/a&gt;. ",
+    "url": "/docs/terrap/docs/open-issue.html#open-issue",
+    
+    "relUrl": "/docs/terrap/docs/open-issue.html#open-issue"
+  },"15": {
+    "doc": "Open Issue",
+    "title": "Flags",
+    "content": ". | [-t] title - Issue’s title | [-d] description - Issue’s description, make it as clear as possible. | [-f] feature - Use this flag to specify this is a feature request. | –token - The GitHub token to use (for security reasons, you better use the GH_TOKEN environment variable). | . ",
+    "url": "/docs/terrap/docs/open-issue.html#flags",
+    
+    "relUrl": "/docs/terrap/docs/open-issue.html#flags"
+  },"16": {
+    "doc": "Open Issue",
+    "title": "Environment Variables",
+    "content": "GH-TOKEN - Use this to set the GitHub api token to be used to open the issue. ",
+    "url": "/docs/terrap/docs/open-issue.html#environment-variables",
+    
+    "relUrl": "/docs/terrap/docs/open-issue.html#environment-variables"
+  },"17": {
+    "doc": "Open Issue",
+    "title": "Open Issue",
+    "content": " ",
+    "url": "/docs/terrap/docs/open-issue.html",
+    
+    "relUrl": "/docs/terrap/docs/open-issue.html"
+  },"18": {
+    "doc": "Providers",
+    "title": "Providers",
+    "content": "The providers command can by use in one of two cases: . | Listing a Terrap Workspace to see what providers are in context. | Inspecting the backend to see which Terraform providers are supported. | . ",
+    "url": "/docs/terrap/docs/providers.html",
+    
+    "relUrl": "/docs/terrap/docs/providers.html"
+  },"19": {
+    "doc": "Providers",
+    "title": "Sub-Commands",
+    "content": "get-context . The get-context sub-command is used to inspect the current directory Terrap workspace. The command can be used with the --filter flag in order to list specific provider version only. Example: . On executing terrap providers get-context, we get the following result: . And on executing terrap providers get-context --filter aws we get: . get-supported . The get-supported sub-command is used to inspect the Terrap supported providers and versions. The command can be used with the --filter flag in order to list specific provider version only. Example: . On executing terrap providers get-supported, we get the following result: . And on executing terrap providers get-supported --filter aws we get: cp . ",
+    "url": "/docs/terrap/docs/providers.html#sub-commands",
+    
+    "relUrl": "/docs/terrap/docs/providers.html#sub-commands"
+  },"20": {
+    "doc": "Terrap QuickStart",
+    "title": "Quick Start",
+    "content": " ",
+    "url": "/docs/terrap/docs/quickstart.html#quick-start",
+    
+    "relUrl": "/docs/terrap/docs/quickstart.html#quick-start"
+  },"21": {
+    "doc": "Terrap QuickStart",
+    "title": "Download",
+    "content": "Clone sirrend/terrap-cli . git clone https://github.com/sirrend/terrap-cli cd terrap-cli go build -o terrap . chmod +x terrap mv terrap /usr/local/bin/ . Brew . brew install terrap-cli . Validate terrap is working by executing terrap. ",
+    "url": "/docs/terrap/docs/quickstart.html#download",
+    
+    "relUrl": "/docs/terrap/docs/quickstart.html#download"
+  },"22": {
+    "doc": "Terrap QuickStart",
+    "title": "Initialize my First Workspace",
+    "content": ". | Navigate to the local Terraform folder you want to work with. cd terraform/folder/path . | Initialize a new Terrap workspace where you would run terraform apply with terrap init -&gt; init. | . As Terrap runs terraform init under the hood, it would need every configuration component you normally use when executing terraform init. It can be an ENV_VAR, the .aws/credentials file, etc. | Scan your workspace with: terrap scan | . ",
+    "url": "/docs/terrap/docs/quickstart.html#initialize-my-first-workspace",
+    
+    "relUrl": "/docs/terrap/docs/quickstart.html#initialize-my-first-workspace"
+  },"23": {
+    "doc": "Terrap QuickStart",
+    "title": "Terrap QuickStart",
+    "content": " ",
+    "url": "/docs/terrap/docs/quickstart.html",
+    
+    "relUrl": "/docs/terrap/docs/quickstart.html"
+  },"24": {
+    "doc": "Scan",
+    "title": "Scan",
+    "content": "Scan is used to find all changes in a Terrap workspace Scan displays its output per file and can generate it in three different ways: . | Human-Readable | JSON | Code Annotation - alpha stage | . Your browser does not support the video tag. ",
+    "url": "/docs/terrap/docs/scan.html",
+    
+    "relUrl": "/docs/terrap/docs/scan.html"
+  },"25": {
+    "doc": "Scan",
+    "title": "Flags",
+    "content": "Fixed Providers . | [-f] fixed-providers - A comma separated list of fixed providers written in the following format: &lt;provider&gt;:&lt;version&gt;. If this flag is used, all other in-context providers are ignored. Example: terrap scan --fixed-providers hashicorp/aws:3.74.3,hashicorp:google:3.90.1 . | . Filtering Options . | [-p] provider - Show only provider block changes. | [-d] data-sources - Display only changed data-sources | [-r] resources - Show only resources changes. | . Print Options . | [-a] anotate - Annotate the code itself | [-j] json - Print the scaned output as json. { \"/Users/yuvalpress/Desktop/Sirrend/terrap-cli/test-env/terraform-test/test.tf\": { \"aws_s3_bucket\": [ { \"Path\": \"aws_s3_bucket.object_lock_enabled\", \"Operation\": \"added\", \"ComponentName\": \"object_lock_enabled\", \"ComponentType\": \"attribute\", \"Required\": false, \"Notification\": \"A new 'object_lock_enabled' attribute is now available\", \"Docs\": \"https://registry.terraform.io/providers/hashicorp/aws/3.75.0/docs/resources/s3_bucket\" }, { \"Path\": \"aws_s3_bucket.acceleration_status\", \"Operation\": \"added\", \"ComponentName\": \"deprecated\", \"ComponentType\": \"parameter\", \"Required\": false, \"Notification\": \"deprecated: Use the aws_s3_bucket_accelerate_configuration resource instead.\", \"Docs\": \"https://registry.terraform.io/providers/hashicorp/aws/3.75.0/docs/resources/s3_bucket\" } ], \"aws_s3_bucket_acl\": [ { \"Path\": \"aws_s3_bucket_acl\", \"Operation\": \"added\", \"ComponentName\": \"aws_s3_bucket_acl\", \"ComponentType\": \"resource\", \"Required\": false, \"Notification\": \"A new resource named aws_s3_bucket_acl is now available\", \"Docs\": \"https://registry.terraform.io/providers/hashicorp/aws/3.75.0/docs/resources/s3_bucket_acl\" } ], } . | [-n] no-messages - Don’t print any message other than pure command output. | –no-not-supported-message - Don’t print if providers are not supported. | –no-safe-upgrade-message - Don’t print which providers are safe to upgrade. | . ",
+    "url": "/docs/terrap/docs/scan.html#flags",
+    
+    "relUrl": "/docs/terrap/docs/scan.html#flags"
+  },"26": {
+    "doc": "What's-New",
+    "title": "What’s-New",
+    "content": "Whats-New was design to show only the new resources / data sources in the following version. You would use whats-new if you want to check whether upgrading to the next version would be beneficial for your use case. Your browser does not support the video tag. ",
+    "url": "/docs/terrap/docs/whats-new.html#whats-new",
+    
+    "relUrl": "/docs/terrap/docs/whats-new.html#whats-new"
+  },"27": {
+    "doc": "What's-New",
+    "title": "Flags",
+    "content": "Fixed Providers . | [-f] fixed-providers - A comma separated list of fixed providers written in the following format: &lt;provider&gt;:&lt;version&gt;. If this flag is used, all other in-context providers are ignored. Example: terrap scan --fixed-providers hashicorp/aws:3.74.3,hashicorp:google:3.90.1 . | . Filtering Options . | [-p] provider - Show only provider block changes. | [-d] data-sources - Display only changed data-sources | [-r] resources - Show only resources changes. | . Print Options . | [-j] json - Print the scaned output as json. { \"aws_s3_bucket\": [ \"A new 'object_lock_enabled' attribute is now available\" ], \"aws_s3_bucket_accelerate_configuration\": [ \"A new resource named aws_s3_bucket_accelerate_configuration is now available\" ], \"aws_s3_bucket_acl\": [ \"A new resource named aws_s3_bucket_acl is now available\" ], \"aws_s3_bucket_cors_configuration\": [ \"A new resource named aws_s3_bucket_cors_configuration is now available\" ], } . | [-n] no-messages - Don’t print any message other than pure command output. | –no-not-supported-message - Don’t print if providers are not supported. | . ",
+    "url": "/docs/terrap/docs/whats-new.html#flags",
+    
+    "relUrl": "/docs/terrap/docs/whats-new.html#flags"
+  },"28": {
+    "doc": "What's-New",
+    "title": "What's-New",
+    "content": " ",
+    "url": "/docs/terrap/docs/whats-new.html",
+    
+    "relUrl": "/docs/terrap/docs/whats-new.html"
+  }
+}

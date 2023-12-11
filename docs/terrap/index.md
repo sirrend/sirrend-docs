@@ -1,15 +1,23 @@
-# Sirrend-Docs 
+---
+title: Terrap
+layout: default
+nav_order: 4
+has_children: true
+---
+# Terrap Docs
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  ![GitHub go.mod Go version (subdirectory of monorepo)](https://img.shields.io/github/go-mod/go-version/sirrend/terrap-cli?filename=go.mod)
 
-?> **Important** Terrap is currently in it's alpha stage and in continious development.
+{: .warning }
+Terrap is currently in it's alpha stage and in continious development.
 
-?> **Important** Terrap currently supports upgrades to the following version only
+{: .important }
+Terrap currently supports upgrades to the following version only
 
 
-Terrap is a CLI utility created by <a href=https://sirrend.com style="color: #3366CC">Sirrend</a> which keeps you up-to-date with the latest provider changes.
+Terrap is a CLI utility created by [sirrend] which keeps you up-to-date with the latest provider changes.
 
 ## About
-By design, Terrap executes `terraform init` under the hood in order to initialize the Terrap workspace.</br>
+By design, Terrap executes `terraform init` under the hood in order to initialize the Terrap workspace.
 As a direct result of the above, all the components required to initialize the Terraofrm workspace are required by Terrap as well.
 
 For example, if you're using the `AWS_PROFILE` environment variable to configure the **AWS provider**, you need to set it for Terrap as well.
@@ -49,3 +57,5 @@ brew install terrap-cli
 ## Constraints
 1. Supported Terraform Core versions: `>=0.13`.
 2. Every provider which uses `Terraform Core 0.13` or higher.
+
+[sirrend]: https://sirrend.io

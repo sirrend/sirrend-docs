@@ -1,20 +1,27 @@
+---
+title: Scan
+layout: default
+parent: Terrap
+nav_order: 4.3
+has_children: false
+---
 # Scan
 
-Scan is used to find all changes **in a Terrap workspace**</br>
+Scan is used to find all changes **in a Terrap workspace**
 Scan displays its output per file and can generate it in three different ways:
 * Human-Readable
 * JSON
 * Code Annotation - alpha stage
 
-<video width="622" height="325" loop autoplay>
-  <source src="images/scan.mp4" type="video/mp4">
+<video width="822" height="525" loop autoplay>
+  <source src="/images/scan.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
 ## Flags
 ### Fixed Providers
-* **[-f] fixed-providers** - A comma separated list of fixed providers written in the following format: `<provider>:<version>`.</br>
-If this flag is used, all other in-context providers are ignored.</br>
+* **[-f] fixed-providers** - A comma separated list of fixed providers written in the following format: `<provider>:<version>`.
+If this flag is used, all other in-context providers are ignored.
 Example:
 ```shell
 terrap scan --fixed-providers hashicorp/aws:3.74.3,hashicorp:google:3.90.1
@@ -26,9 +33,9 @@ terrap scan --fixed-providers hashicorp/aws:3.74.3,hashicorp:google:3.90.1
 * **[-r] resources** - Show only resources changes.
 
 ### Print Options
-* **[-a] anotate** - Annotate the code itself</br>
+* **[-a] anotate** - Annotate the code itself
 ![annotated](images/annotated-resource.png)
-* **[-j] json** - Print the scaned output as json.</br>
+* **[-j] json** - Print the scaned output as json.
 ```json
 {
         "/Users/yuvalpress/Desktop/Sirrend/terrap-cli/test-env/terraform-test/test.tf": {
