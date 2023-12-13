@@ -8,7 +8,7 @@ nav_order: 1
 
 ![annotated](images/sirrend-cover.png)
 
-## About
+# About
 At [sirrend], our journey began with a mission to revolutionize codebase maintenance. Committed to empowering developers, we strive to streamline upgrades, eliminate tech debt, and maximize productivity. Join us in shaping the future of seamless development.
 
 Read the docs to start using the different tools such as [Terrap]
