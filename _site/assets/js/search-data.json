@@ -134,7 +134,7 @@
   },"19": {
     "doc": "Providers",
     "title": "Sub-Commands",
-    "content": "get-context . The get-context sub-command is used to inspect the current directory Terrap workspace. The command can be used with the --filter flag in order to list specific provider version only. Example: . On executing terrap providers get-context, we get the following result: . And on executing terrap providers get-context --filter aws we get: . get-supported . The get-supported sub-command is used to inspect the Terrap supported providers and versions. The command can be used with the --filter flag in order to list specific provider version only. Example: . On executing terrap providers get-supported, we get the following result: . And on executing terrap providers get-supported --filter aws we get: cp . ",
+    "content": "get-context . The get-context sub-command is used to inspect the current directory Terrap workspace. The command can be used with the --filter flag in order to list specific provider version only. Example: . On executing terrap providers get-context, we get the following result: . And on executing terrap providers get-context --filter aws we get: . get-supported . The get-supported sub-command is used to inspect the Terrap supported providers and versions. The command can be used with the --filter flag in order to list specific provider version only. Example: . On executing terrap providers get-supported, we get the following result: . And on executing terrap providers get-supported --filter aws we get: . ",
     "url": "/docs/terrap/docs/providers.html#sub-commands",
     
     "relUrl": "/docs/terrap/docs/providers.html#sub-commands"
