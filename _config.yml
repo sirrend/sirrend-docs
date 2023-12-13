@@ -2,7 +2,7 @@ title: Sirrend Docs
 description: The place to read all Sirrend's tools documentation.
 theme: just-the-docs
 logo: "images/sirrend-full.png"
-favicon_ico: "images/favicon.ico"
+favicon_ico: "/images/favicon.ico"
 
 url: https://just-the-docs.github.io
 
