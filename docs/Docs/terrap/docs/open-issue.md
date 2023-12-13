@@ -2,6 +2,7 @@
 title: Open Issue
 layout: default
 parent: Terrap
+grand_parent: Docs
 nav_order: 4.7
 has_children: false
 ---

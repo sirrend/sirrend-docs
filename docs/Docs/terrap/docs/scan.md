@@ -2,6 +2,7 @@
 title: Scan
 layout: default
 parent: Terrap
+grand_parent: Docs
 nav_order: 4.3
 has_children: false
 ---
