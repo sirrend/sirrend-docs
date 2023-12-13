@@ -11,7 +11,7 @@ Whats-New was design to show only the new resources / data sources in the follow
 You would use `whats-new` if you want to check whether upgrading to the next version would be beneficial for your use case.
 
 <video width="814" height="535" loop autoplay>
-  <source src="/images/whats-new.mp4" type="video/mp4">
+  <source src="images/whats-new.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

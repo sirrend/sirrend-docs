@@ -17,10 +17,10 @@ The command can be used with the `--filter` flag in order to list specific provi
 
 #### Example:
 On executing `terrap providers get-context`, we get the following result:
-![context](/images/providers-context.png)
+![context](images/providers-context.png)
 
 And on executing `terrap providers get-context --filter aws` we get:
-![context](/images/filtered-providers-context.png)
+![context](images/filtered-providers-context.png)
 
 ### get-supported
 The `get-supported` sub-command is used to inspect the Terrap supported providers and versions.
@@ -28,7 +28,7 @@ The command can be used with the `--filter` flag in order to list specific provi
 
 #### Example:
 On executing `terrap providers get-supported`, we get the following result:
-![context](/images/supported-providers.png)
+![context](images/supported-providers.png)
 
 And on executing `terrap providers get-supported --filter aws` we get:
-![context](/images/filtered-supported-providers.png)cp
+![context](images/filtered-supported-providers.png)

@@ -14,7 +14,7 @@ Scan displays its output per file and can generate it in three different ways:
 * Code Annotation - alpha stage
 
 <video width="822" height="525" loop autoplay>
-  <source src="/images/scan.mp4" type="video/mp4">
+  <source src="images/scan.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

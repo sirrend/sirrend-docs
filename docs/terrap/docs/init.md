@@ -20,7 +20,7 @@ Init is necessary when you have a predefined set of providers and want to track 
 It is prefered to use `init` in most cases, to make the use of other commands easier.
 
 <video width="615" height="290" loop autoplay>
-  <source src="/images/init.mp4" type="video/mp4">
+  <source src="images/init.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
