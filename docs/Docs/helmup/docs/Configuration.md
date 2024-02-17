@@ -1,7 +1,7 @@
 ---
 title: sirrend.cfg
 layout: default
-parent: helmup
+parent: HelmUp
 grand_parent: Docs
 nav_order: 6.1
 has_children: false
