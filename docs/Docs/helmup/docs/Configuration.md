@@ -1,5 +1,5 @@
 ---
-title: sirrend.cfg
+title: System Configuration
 layout: default
 parent: HelmUp
 grand_parent: Docs
