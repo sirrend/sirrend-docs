@@ -22,18 +22,15 @@ upgrade_majors=disabled
 ```
 
 * `current_kubernetes_version` - the current Kubernetes version you have.
-</br>
 It is important for best upgrades compatability.
 
 * `desired_kubernetes_version` - the Kubernetes version you whish to upgrade to (if any).
-</br>
 **It is not a must have value.**
 
 * `jira_tickets` - Should Jira tickets be opened for each new Pull-Request or not. Defaults to `disabled`.
 
 * `teams_notifications` - Should teams messages be sent or not.</br>
 It is our recommendation to enable this feature, in order to receive all possible inputs regarding the upgrades and backend processes running daily.
-</br>
 Defaults to `disabled`.
 
 * `upgrade_majors` - By design, HelmUp performs upgrades to the next minor version.  
